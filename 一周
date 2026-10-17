@@ -34,4 +34,3 @@ print("11)", f"大家好，我叫{my_name}，今年{my_age}岁，很高兴认识
 bill, rate = 200.0, 10.0
 tip = bill * rate / 100
 print(f"12) 小费：{tip:.2f} 总价：{bill + tip:.2f}")
-day1~5已完成
