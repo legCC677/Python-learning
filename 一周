@@ -1,0 +1,37 @@
+# Python 第1天演示版：把今天12道题一次跑完看输出
+# 带 input() 的题这里用固定示例值代替，方便直接运行对照
+
+print("1)", "hello世界")
+
+name = "小明"
+age = 18
+print("2)", f"我叫{name}今年{age}岁")
+
+a, b, c, d = 10, 3.14, "你好", True
+print("3)", type(a), type(b), type(c), type(d))
+
+print("4)", int("123") + 7)
+
+r = 5
+print("5)", 3.14 * r * r)
+
+x, y = 10.0, 4.0
+print("6) 和：", x + y, "差：", x - y, "积：", x * y, "商：", x / y)
+
+print("7)", f"你好{name}")
+
+celsius = 100.0
+print("8) 华氏度是：", celsius * 9 / 5 + 32)
+
+s = "Hello Python"
+print("9) 长度：", len(s), "大写：", s.upper(), "小写：", s.lower())
+
+print("10)", "abc"[::-1])
+
+my_name, my_age = "lweguo", 22
+print("11)", f"大家好，我叫{my_name}，今年{my_age}岁，很高兴认识大家！")
+
+bill, rate = 200.0, 10.0
+tip = bill * rate / 100
+print(f"12) 小费：{tip:.2f} 总价：{bill + tip:.2f}")
+day1~5已完成
